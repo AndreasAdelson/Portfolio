@@ -1,0 +1,42 @@
+/* BackgroundColor */
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bg-red {
+	background-color: rgba(191, 21, 35, 0.7);
+}
+
+.topnav {
+	overflow: hidden;
+}
+/* Style pour la navbar */
+/* Navbar links */
+.topnav a {
+	float: left;
+	color: #fff4e0;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #fff4e0;
+	color: black;
+}
+
+/*  Style pour l'image centrale */
+.imageCentrale {
+	background-image: url(../images/drapeau.jpg);
+	min-height: 780px;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	/* Needed to position the navbar */
+	position: relative;
+}
